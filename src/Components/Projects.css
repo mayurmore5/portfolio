@@ -1,0 +1,26 @@
+/* src/components/Projects.css */
+.projects-container {
+    text-align: center;
+    padding: 50px;
+    background: #0b0c10;
+    color: #fff;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .projects-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .projects-container p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #b3b3b3;
+  }
+  

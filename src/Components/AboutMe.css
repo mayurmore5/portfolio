@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+background: linear-gradient(90deg, #83699d 0%, #0e0121 33%, #430832 66%, #340181 100%);
+
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+  
+  .about-section {
+    height: 100%;
+    padding: 2rem 2rem;
+    background: linear-gradient(90deg, #442c5b 0%, #0e0121 33%, #430832 66%, #340181 100%);
+
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #e9dede;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3rem;
+  }
+  
+  .card {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 3rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+  }
+  
+  .card-icon {
+    font-size: 3.5rem;
+    color: #6c63ff;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .card:hover .card-icon {
+    color: #8074ff;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .card:hover .card-title {
+    color: #444;
+  }
+  
+  .card-description {
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 1.6;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .card:hover .card-description {
+    color: #555;
+  }

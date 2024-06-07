@@ -1,0 +1,47 @@
+/* src/TechSkills.css */
+.tech-skills {
+    text-align: center;
+    background: linear-gradient(to bottom right, #141439, #1b1b9e);
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .tech-skills h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .skill svg {
+    font-size: 3em;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .skill:hover svg {
+    transform: scale(1.5);
+  }
+  
+  /* Specific colors for each icon */
+  .react { color: #61DBFB; }
+  .nextjs { color: #000; }
+  .nodejs { color: #68A063; }
+  .javascript { color: #F7DF1E; }
+  .typescript { color: #007ACC; }
+  .redux { color: #764ABC; }
+  .tailwindcss { color: #38B2AC; }
+  .mongodb { color: #47A248; }
+  .git { color: #F05032; }
+  .html5 { color: #E34F26; }
+  .css3 { color: #1572B6; }
+  .storybook { color: #FF4785; }
+  .figma { color: #F24E1E; }
+  .python { color:yellow}
+  .cpp { color:rgb(31, 73, 210) } 
+  

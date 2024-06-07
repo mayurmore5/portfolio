@@ -1,0 +1,50 @@
+/* src/components/Header.css */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    backdrop-filter: blur(10px); /* Adds a blur effect */
+    z-index: 1000; /* Ensure the header stays above other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    padding-left: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e94560;
+    font-family: 'Poppins', sans-serif; /* Attractive font */
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 35px;
+    text-decoration: none;
+    position: relative;
+    font-family: 'Poppins', sans-serif; /* Attractive font */
+  }
+  
+  nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e94560;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  
+  nav a:hover {
+    color: #e94560;
+  }
+  
